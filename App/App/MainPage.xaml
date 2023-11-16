@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.MainPage">
+
+    <Grid BackgroundColor="#14b9c6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Label Text="Приложение для подписания электронных документов" TextColor="White" Grid.Column="0" Grid.Row="0" FontSize="27" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Button Text="Создать новую электронную подпись" TextColor="White" FontSize="20" Grid.Row="1" BackgroundColor="DodgerBlue" TextTransform="None" CornerRadius="20" Margin="0 40" Clicked="ButtonClick"/>
+        <Button Text="Отозвать электронную подпись" TextColor="White" FontSize="20" Grid.Row="2" BackgroundColor="#5944ff" TextTransform="None" CornerRadius="20" Margin="0 40" Clicked="Button_Clicked_1"/>
+        <Button Text="Заявка на подписание документа" TextColor="White" FontSize="20" Grid.Row="3" BackgroundColor="#7e28ff" TextTransform="None" CornerRadius="20" Margin="0 40" Clicked="Button_Clicked_2"/>
+        <Button Text="История подписанных документов" TextColor="White" FontSize="20" Grid.Row="4" BackgroundColor="#541792" TextTransform="None" CornerRadius="20" Margin="0 40" Clicked="Button_Clicked_3"/>
+    </Grid>
+
+</ContentPage>
